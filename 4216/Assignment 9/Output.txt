@@ -1,0 +1,94 @@
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+1      
+Enter Name: Asutosh Panda
+Minimum Age should be 18
+Enter Age: 4
+Please enter valid age:19
+Account ID: 23434
+Account Type - savings/current: savings
+Enter Balance: 10000
+Minimum Balance: 1000
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+2
+Welcome Asutosh Panda !!
+Your Account Details are
+Age: 19
+Account ID: 23434
+Account Type: savings
+Balance: 10000.0
+Minimum Balance: 1000.0
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+3
+Current Balance: 10000.0
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+5
+Enter Amount to withdraw: 9000
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+3
+Current Balance: 1000.0
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+5
+Enter Amount to withdraw: 10
+your account has balance: 1000.0
+Unable to Withdraw
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+4
+How much you want to deposit?
+2000
+Balance: 3000.0
+press 1 to do further else 0
+1
+1.Create Account
+2.Display Account
+3.Check Balance
+4.Deposit Amount
+5.Withraw Amount
+6.Exit
+6

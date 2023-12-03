@@ -1,0 +1,44 @@
+Choose type
+1. String
+2. Integer
+1
+Enter the number of Strings:
+3
+Enter string:
+yogesh
+Enter string:
+gaurav
+Enter string:
+madam
+yogesh is not palindrome
+gaurav is not palindrome
+madam is palindrome
+The number of Palindrome string are:1
+The number of non-palindrome string is:2
+
+Choose type
+1. String
+2. Integer
+2
+Enter the number of elements:
+4
+Enter number:
+2
+Enter number:
+25
+Enter number:
+50
+Enter number:
+75
+
+1.Even or Odd
+2.Prime or not
+Choose:
+1
+2 is even number
+25 is odd number
+50 is even number
+75 is odd number
+The total number of even and odd numbers occured are:
+The number of even number are:2
+The number of odd number are:2

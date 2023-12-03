@@ -1,0 +1,239 @@
+1. Bicycle
+2. Bike
+3. Car
+1
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Bicycle already at Rest
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+1
+Gear changed to 1 and speed 10
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+3
+Speed increased to 20 and gear changed to 2
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+1
+Gear changed to 3 and speed 30
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+2
+Decreasing gear
+Gear changed to 2 and speed 20
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+4
+Speed decreased to 10 and gear changed to 1
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Bicycle already at Rest
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+6
+Press 1 to continue else 0
+1
+1. Bicycle
+2. Bike
+3. Car
+2
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Bike already at Rest
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+1
+Gear changed to 1 and speed 20
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+3
+Speed increased to 40 and gear changed to 2
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+2
+Decreasing gear
+Gear changed to 1 and speed 20
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+4
+Speed decreased to 0 and gear changed to 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+1
+Gear changed to 1 and speed 20
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Bike already at Rest
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+6
+Press 1 to continue else 0
+1
+1. Bicycle
+2. Bike
+3. Car
+3
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+1
+Gear changed to 1 and speed 30
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+3
+Speed increased to 60 and gear changed to 2
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+2
+Decreasing gear
+Gear changed to 1 and speed 30
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+3
+Speed increased to 60 and gear changed to 2
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+4
+Speed decreased to 30 and gear changed to 1
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+5
+Applying Brakes
+Car already at Rest
+Speed is 0
+1. Gearing up
+2. Gearing down
+3. speeding up
+4. speeding down
+5. Applying Brakes
+6. Exit
+6
+Press 1 to continue else 0
+0

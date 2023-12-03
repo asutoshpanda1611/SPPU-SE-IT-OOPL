@@ -1,0 +1,143 @@
+1.Book 
+2.Magazine
+3.Total sale amount
+4.Revenue of Publication
+Enter :1
+Menu for Book
+1.read book
+2.display
+3.sale copies
+4.order copies
+Enter :1
+enter title : gulab
+enter price:  100
+enter copies: 10
+enter author book: premchand
+press 1 to continue with book section
+Enter:1
+Menu for Book
+1.read book
+2.display
+3.sale copies
+4.order copies
+Enter :2
+Title :gulab
+Price :100
+copies :10
+author :premchand
+press 1 to continue with book section
+Enter:1
+Menu for Book
+1.read book
+2.display
+3.sale copies
+4.order copies
+Enter :3
+How many copies you want for customer: 30
+Out of Stock
+press 1 to continue with book section
+Enter:1
+Menu for Book
+1.read book
+2.display
+3.sale copies
+4.order copies
+Enter :4
+How many copies you want for shop: 30
+Order Done
+Copies Available : 40
+press 1 to continue with book section
+Enter:1
+Menu for Book
+1.read book
+2.display
+3.sale copies
+4.order copies
+Enter :3
+How many copies you want for customer: 30
+Copies Purchased : 30
+Total Amount: 3000
+press 1 to continue with book section
+Enter:1
+Menu for Book
+1.read book
+2.display
+3.sale copies
+4.order copies
+Enter :0
+invalid
+press 1 to continue with book section
+Enter:0
+press 1 to continue with Publication :1
+1.Book
+2.Magazine
+3.Total sale amount
+4.Revenue of Publication
+Enter :2
+Menu for Magazine
+1.Read
+2.Display
+3.Sale copies
+4.Receive new issue
+Enter :1
+enter title : young 
+enter price:  200
+enter copies: 10
+Enter THe Current Issue Date [dd/mm/yyyy]15/03/2021
+press 1 to continue :1
+Menu for Magazine
+1.Read
+2.Display
+3.Sale copies
+4.Receive new issue
+Enter :2
+Title :young
+Price :200
+copies :10
+Date Issued :15/03/2021
+press 1 to continue :1
+Menu for Magazine
+1.Read
+2.Display
+3.Sale copies
+4.Receive new issue
+Enter :3
+How many copies you want for customer:
+10
+Copies Purchased : 10
+Total Amount: 2000
+press 1 to continue :1
+Menu for Magazine
+1.Read
+2.Display
+3.Sale copies
+4.Receive new issue
+Enter :4
+Enter the new issue date [dd/mm/yyyy]:
+12/02/2010
+How many copies you want to order :20
+Magazine : young
+Issue Date :12/02/2010
+press 1 to continue :1
+Menu for Magazine
+1.Read
+2.Display
+3.Sale copies
+4.Receive new issue
+Enter :0
+press 1 to continue :0
+press 1 to continue with Publication :1
+1.Book
+2.Magazine
+3.Total sale amount
+4.Revenue of Publication
+Enter :3
+Total Amount for customer: 5000
+press 1 to continue with Publication :1
+1.Book
+2.Magazine
+3.Total sale amount
+4.Revenue of Publication
+Enter :4
+Total revenue for publication: 5000
+press 1 to continue with Publication :0

@@ -1,0 +1,88 @@
+import java.util.*;
+
+abstract class shape {
+	abstract double compute_area();
+	double val1, val2;
+    
+    Scanner sc = new Scanner(System.in);
+	
+	void input(){
+	    Scanner sc = new Scanner(System.in);
+	    do{
+	        System.out.print("Enter value 1 :");
+	        val1 = sc.nextDouble();
+	    }while(val1<=0);
+	    
+	    do{
+	        System.out.print("Enter value 2 :");
+	        val2 = sc.nextDouble();
+	    }while(val2<=0);
+	}
+}
+
+
+class triangle extends shape {
+	public double compute_area(){
+		double area = 0.5*val1*val2;
+		return area;
+	}
+}
+
+
+class Rectangle extends shape{
+	public double compute_area(){
+	    double area = val1*val2;
+	    return area;
+	}
+}
+
+class Rhombus extends shape{
+	public double compute_area(){
+	    double area = 0.5*val1*val2;
+	    return area;
+	}
+}
+
+
+public class Main1{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int inp;
+		int c;
+		do{
+		    System.out.println("press 1 for Triangle ");
+		    System.out.println("press 2 for rectangle ");
+		    System.out.println("press 3 for Rhombus ");
+		    System.out.println("press 4 to Exit ");
+		    System.out.println("press 5 for continue further ");
+		    c = sc.nextInt();
+		    if(c==1){
+				System.out.println("Enter Base and height for Triangle ");
+		        triangle tri = new triangle();
+		        tri.input();
+		        System.out.println("Triangle Area : "+ tri.compute_area());
+		        
+		    }
+		    else if(c==2){
+				System.out.println("Enter Length and Breadth for Rectangle");
+		        Rectangle rectangle = new Rectangle();
+		        rectangle.input();
+		        System.out.println("Rectangle area: "+ rectangle.compute_area());
+		        
+		    }
+		    else if(c==3){
+				System.out.println("Enter Dialgonal 1 and diagonal 2 for Rhombus ");
+		        Rhombus rho = new Rhombus();
+		        rho.input();
+		        System.out.println("Rhombus area: "+ rho.compute_area());
+		    }
+		    
+		    else if(c==4){
+		        break;
+		    }
+		    
+		    System.out.print("press 1 to continue  : ");
+		    inp = sc.nextInt();
+		}while(inp==1);
+	}
+}

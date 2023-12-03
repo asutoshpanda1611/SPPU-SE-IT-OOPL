@@ -1,0 +1,57 @@
+Press 1 for Programmer
+Press 2 for Team Leader
+Press 3 for Asst Project Man
+Press 4 for Project Man
+1 
+Enter the name of Employee: asw
+Employee ID:  21
+Enter Address:  as
+ENTER THE correct mobile no
+1111111111
+Enter mail ID:
+@.com
+Enter the basic pay: 10000
+Press 1
+1
+Name: asw
+ID: 21
+Adddress: as
+Mobile NO: 1111111111
+Mail ID: @.com
+da: 9700.0
+hra: 1200.0
+pf: 1000.0
+cf: 10.0
+Net salry is 20900.0
+gross salry is 21910.0
+press 1 to continue else 0
+1
+
+Press 1 for Programmer
+Press 2 for Team Leader
+Press 3 for Asst Project Man
+Press 4 for Project Man
+2
+Enter the name of Employee: ram
+Employee ID:  43
+Enter Address:  wew
+ENTER THE correct mobile no
+2222222222
+Enter mail ID:
+asu@d.com
+Enter the basic pay: 30000
+Press 1
+1
+Name: ram
+ID: 43
+Adddress: wew
+Mobile NO: 2222222222
+Mail ID: asu@d.com
+da: 29100.0
+hra: 3600.0
+pf: 3000.0
+cf: 30.0
+Net salry is 62700.0
+gross salry is 65730.0
+press 1 to continue else 0
+0

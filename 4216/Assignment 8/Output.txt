@@ -1,0 +1,139 @@
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+1
+
+
+Enter student's name: Yogesh
+
+Enter student's id: 9
+
+Enter student's roll number: 27009
+
+Enter address: Moshi
+
+Enter student's class: 12
+
+Enter marks: 88
+
+Record added successfully.
+Do you want to add more?(Y/N): Y
+
+Enter student's name: Gaurav
+
+Enter student's id: 10
+
+Enter student's roll number: 27010
+
+Enter address: Bhosari
+
+Enter student's class: 12
+
+Enter marks: 85
+
+Record added successfully.
+Do you want to add more?(Y/N): Y
+
+Enter student's name: Abhay
+
+Enter student's id: 15
+
+Enter student's roll number: 27015
+
+Enter address: Pune
+
+Enter student's class: 12
+
+Enter marks: 80
+
+Record added successfully.
+Do you want to add more?(Y/N): N
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+2
+
+Enter the name of the student you want to update: Abhay
+Record found.
+Enter updated marks: 
+84
+Record updated successfully.
+Renamed successfully.
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+3
+
+Yogesh 9 27009 Moshi 12 88.0
+
+
+Gaurav 10 27010 Bhosari 12 85.0
+
+
+Abhay 15 27015 Pune 12 84.0
+
+
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+4
+
+Enter the id of the student you want to search: 15
+Record found.
+Abhay 15 27015 Pune 12 84.0
+
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+5
+
+Enter the name of the student you want to delete: Abhay
+Record deleted successfully.
+Record deleted successfully.
+
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+6
+
+All records are cleared successfully.
+
+1 - Add Record
+2 - Update Record
+3 - Display Record
+4 - Search Record
+5 - Delete Record
+6 - Clear All Records
+7 - Exit
+
+7

@@ -1,0 +1,97 @@
+import java.util.*;
+import java.math.*;
+
+public class Main1{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int p;
+		ArrayList obj = new ArrayList();
+		int x,n1,m1;
+		String n,m,val1;
+
+		do{
+			System.out.print("Enter the element to push in Array: ");
+			val1 = sc.next();
+			obj.add(val1);
+
+			System.out.println("Press 1 to push more elements else 0:");
+			x = sc.nextInt();
+
+		}while(x!=0);
+		
+		do{
+		
+			System.out.println("Enter first number: ");
+			m = sc.next();
+			
+			System.out.println("Enter second number: ");	
+			n = sc.next();
+			int ch;
+
+			if(obj.contains(m) && obj.contains(n)){
+			System.out.println("What operaton: ");
+			System.out.println("1. Check for Arithmatic Exception: ");
+			System.out.println("2. Check for NumberFormat Exception:");
+			System.out.println("3. ArrayIndexOutOfBound Exception: ");
+			
+			ch = sc.nextInt();
+			if(ch==1){
+				try{
+					int c;
+					m1 = Integer.parseInt(m);
+					n1 = Integer.parseInt(n);
+					c = m1/n1;
+					System.out.println("Result: "+c);
+				}
+				catch (ArithmeticException e){
+					System.out.println("Division by Zero not possible ");
+				}
+				
+			}
+						
+			if(ch==2){
+				int m11,n11;
+				try{
+						m11=Integer.parseInt(m);
+						n11=Integer.parseInt(n);
+						int c = m11/n11;
+						System.out.println("Answer is: "+c);
+				}
+				
+				catch(NumberFormatException e){
+					System.out.println("Cannot convert character to Integer type ");
+				}
+			
+			}
+												
+			if(ch==3){
+				int a,b;
+				System.out.println("Enter index of first number: ");
+				a = sc.nextInt();
+
+				System.out.println("Enter index of second number: ");	
+				b = sc.nextInt();
+					
+				if(a<=obj.size()-1 && b<=obj.size()-1 ){
+					try{
+						System.out.println( "numbers are valid ");
+					}
+					catch(ArrayIndexOutOfBoundsException e){
+						System.out.println( "Index not Found ");
+					}		
+				}
+				else{
+					System.out.println( "Index not Found ");
+				}										
+			}
+		}
+		
+		else{
+			System.out.println("Plese Enter Valid Input from Array ");
+		}
+
+		System.out.println("press 1 else 0 to exit");
+		p = sc.nextInt();		
+		}while(p!=0);
+	}
+}

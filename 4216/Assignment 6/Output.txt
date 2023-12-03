@@ -1,0 +1,55 @@
+Enter the element to push in Array: 10
+Press 1 to push more elements else 0:
+1
+Enter the element to push in Array: 0
+Press 1 to push more elements else 0:
+1
+Enter the element to push in Array: 5
+Press 1 to push more elements else 0:
+1
+Enter the element to push in Array: t
+Press 1 to push more elements else 0:
+1
+Enter the element to push in Array: 20
+Press 1 to push more elements else 0:
+0
+Enter first number:
+10
+Enter second number:
+5
+What operaton:
+1. Check for Arithmatic Exception:
+2. Check for NumberFormat Exception:
+3. ArrayIndexOutOfBound Exception:
+3
+Enter index of first number:
+0
+Enter index of second number:
+2
+numbers are valid
+press 1 else 0 to exit
+1
+Enter first number:
+10
+Enter second number:
+t
+What operaton:
+1. Check for Arithmatic Exception:
+2. Check for NumberFormat Exception:
+3. ArrayIndexOutOfBound Exception:
+2
+Cannot convert character to Integer type
+press 1 else 0 to exit
+1
+Enter first number:
+10
+Enter second number:
+5
+What operaton:
+1. Check for Arithmatic Exception:
+2. Check for NumberFormat Exception:
+3. ArrayIndexOutOfBound Exception:
+1
+Result: 2
+press 1 else 0 to exit
+0

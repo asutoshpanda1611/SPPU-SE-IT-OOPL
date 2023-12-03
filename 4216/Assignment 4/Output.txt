@@ -1,0 +1,39 @@
+press 1 for Triangle 
+press 2 for rectangle
+press 3 for Rhombus
+press 4 to Exit
+press 5 for continue further
+1
+Enter Base and height for Triangle
+Enter value 1 :20
+Enter value 2 :30
+Triangle Area : 300.0
+press 1 to continue  : 1
+press 1 for Triangle
+press 2 for rectangle
+press 3 for Rhombus
+press 4 to Exit
+press 5 for continue further
+2
+Enter Length and Breadth for Rectangle
+Enter value 1 :24
+Enter value 2 :34
+Rectangle area: 816.0
+press 1 to continue  : 1
+press 1 for Triangle
+press 2 for rectangle
+press 3 for Rhombus
+press 4 to Exit
+press 5 for continue further
+3
+Enter Dialgonal 1 and diagonal 2 for Rhombus
+Enter value 1 :10
+Enter value 2 :15
+Rhombus area: 75.0
+press 1 to continue  : 1
+press 1 for Triangle
+press 2 for rectangle
+press 3 for Rhombus
+press 4 to Exit
+press 5 for continue further
+4

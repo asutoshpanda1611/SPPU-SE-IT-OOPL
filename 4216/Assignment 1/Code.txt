@@ -1,0 +1,120 @@
+import java.util.Scanner;
+
+class Complex_No {
+	float real, img;
+
+	public Complex_No() {
+		real = 0;
+		img = 0;
+	}
+
+	public Complex_No(float a, float b) {
+		real = a;
+		img = b;
+	}
+	
+	public Complex_No accept(){
+	    Complex_No Com1 = new Complex_No();
+	    Scanner Sc = new Scanner(System.in);
+	    System.out.print("Enter real part of Number: a : ");
+		this.real = Sc.nextFloat();
+		System.out.print("Enter img part of Number: b : ");
+		this.img = Sc.nextFloat();
+		return Com1;
+	}
+
+	public void Display(Complex_No C1, Complex_No C2) {
+		System.out.println("First Complex Numbers =(" + C1.real + ")+(" + C1.img + ")i");
+        System.out.println("Second Complex Numbers =(" + C2.real + ")+(" + C2.img + ")i");
+	}
+
+	public void AddNumbers(Complex_No C1, Complex_No C2) {
+		float real, img;
+		real = (C1.real + C2.real);
+		img = (C1.img + C2.img);
+		System.out.println("Addition of Complex Numbers =(" + real + ")+(" + img + ")i");
+	}
+
+	public void SubNumbers(Complex_No C1, Complex_No C2) {
+		float real, img;
+		real = (C1.real - C2.real);
+		img = (C1.img - C2.img);
+		System.out.println("Substraction of Complex Numbers =(" + real + ")+(" + img + ")i");
+	}
+
+	public void MultiNumbers(Complex_No C1, Complex_No C2) {
+		float real, img;
+		real = (C1.real * C2.real - C1.img * C2.img);
+		img = (C1.real * C2.img + C1.img * C2.real);
+		System.out.println("Multiplication of Complex Numbers =(" + real + ")+(" + img + ")i");
+	}
+
+	public void DivNumbers(Complex_No C1, Complex_No C2) {
+		float real, img;
+		real = (C1.real * C2.real + C1.img * C2.img) / (C2.real * C2.real + C2.img * C2.img);
+		img = (C1.img * C2.real - C1.real * C2.img) / (C2.real * C2.real + C2.img * C2.img);
+		if(C2.real + C2.img == 0){
+		    System.out.println("Division by Zero not Possible");
+		}
+		else{
+		    System.out.println("Division of Complex Numbers =(" + real + ")+(" + img + ")i");
+		}
+	}
+}
+
+public class Main1 {
+	public static void main(String[] args) {
+		float num1, num2;
+		int ch,ans;
+		Complex_No cal = new Complex_No();
+		Scanner Sc = new Scanner(System.in);
+
+        Complex_No Com1 = new Complex_No();
+
+		Complex_No Com2 = new Complex_No();
+		
+        System.out.println(" ");
+	    cal.Display(Com1, Com2);
+	    System.out.println(" ");
+	    
+		do{
+		    System.out.println("Press 0 for Accept ");
+		    System.out.println("Press 1 for Addition ");
+	        System.out.println("Press 2 for Subtraction ");
+	        System.out.println("Press 3 for Multiplication ");
+	        System.out.println("Press 4 for Division ");
+	        System.out.println("Press 5 to Exit ");
+	        ch = Sc.nextInt();
+    	    switch(ch){
+    	        case 0:
+    	            Com1.accept();
+    	            Com2.accept();
+    	            break;
+    	        
+		        case 1 : 
+		            cal.AddNumbers(Com1, Com2);
+		            break;
+		        
+		        case 2 : 
+		            cal.SubNumbers(Com1, Com2);
+		            break;
+		        
+		        case 3 :
+		            cal.MultiNumbers(Com1, Com2);
+		            break;
+		        
+		        case 4 :
+		            cal.DivNumbers(Com1, Com2);
+		            break;
+		        
+		        case 5 : System.out.println("Exit");
+		            break;
+		        
+		    } 
+		    System.out.println("Do you wish to Continue :");
+		    ans = Sc.nextInt();
+		    
+		}while(ans==1);
+		 
+	}
+}

@@ -1,0 +1,129 @@
+import java.util.*;
+class user{
+	Scanner sc = new Scanner(System.in);
+	String name;
+	
+	int age;
+	String AccountId;
+	static double balance;
+    double bal; //minimum balance
+	public String AccType;
+
+}
+
+class Amount extends user{
+	public void set_balance(){
+		System.out.print("Enter Balance: ");
+		balance = sc.nextDouble();
+	}
+
+	public void get_balance(){
+		System.out.println("Current Balance: "+balance);
+	}
+			
+	public void get_acc_type(){
+		System.out.print("Account Type: "+AccType);
+	}
+}
+
+class Bank extends user{
+	Amount obj = new Amount();
+	double Withdraw_money;
+	double deposit_money;
+
+	public void create_acc(){
+		System.out.print("Enter Name: ");
+		name = sc.nextLine();
+		
+		System.out.println("Minimum Age should be 18 ");
+		System.out.print("Enter Age: ");
+		age = sc.nextInt();
+		if(age<17){
+			System.out.print("Please enter valid age:");
+			age = sc.nextInt();
+		}
+		
+	
+		System.out.print("Account ID: ");
+		AccountId = sc.next();
+
+		System.out.print("Account Type - savings/current: ");
+		AccType = sc.next();
+	
+		obj.set_balance();
+
+		System.out.print("Minimum Balance: ");
+		bal  = sc.nextDouble();
+
+	}
+
+	public void withdraw_amount(){		
+		System.out.print("Enter Amount to withdraw: ");
+		double Withdraw_money = sc.nextDouble();
+		if(balance-bal>=bal && balance-bal>=Withdraw_money){
+			balance = balance - Withdraw_money;
+		}
+		else{
+			System.out.println("your account has balance: "+balance);
+			System.out.println("Unable to Withdraw");
+		}		
+	}
+
+	public void deposit_amount(){
+		System.out.println("How much you want to deposit? ");
+		deposit_money = sc.nextDouble();
+		balance = balance + deposit_money;
+		System.out.println("Balance: "+balance);
+	}
+
+	public void display_info(){
+		System.out.println("Welcome "+name +" !!");
+		System.out.println("Your Account Details are ");
+		System.out.println("Age: "+age);
+		System.out.println("Account ID: "+AccountId);
+		System.out.println("Account Type: "+this.AccType);
+		System.out.println("Balance: "+balance);
+		System.out.println("Minimum Balance: "+bal);
+	}
+
+	void setMinimumBalance (){
+		System.out.print("Enter Minimum Balance: ");
+		bal = sc.nextDouble();
+	}
+}
+
+
+public class Main1{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		Amount am = new Amount();
+		Bank b = new Bank();
+		
+		int n,ch;
+
+		do{
+		System.out.println("1.Create Account");
+		System.out.println("2.Display Account");
+		System.out.println("3.Check Balance");
+		System.out.println("4.Deposit Amount");
+		System.out.println("5.Withraw Amount");
+		System.out.println("6.Exit");
+		n = sc.nextInt();	
+			if(n==1)
+				b.create_acc();		
+			if(n==2)
+				b.display_info();				
+			if(n==3)					
+				am.get_balance();
+			if(n==4)		
+				b.deposit_amount();
+			if(n==5)
+				b.withdraw_amount();
+			if(n==6)	
+				break;				
+			
+			System.out.println("press 1 to do further else 0");
+			ch = sc.nextInt();
+		}while(ch==1);
+	}
+}
